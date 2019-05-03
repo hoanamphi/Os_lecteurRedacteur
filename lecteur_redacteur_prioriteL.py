@@ -24,7 +24,7 @@ class Lecteur(Thread):
 
     # Methode affichant un des messages au hasard dans les donnees
     def lire(self):
-        print("Redacteur " + str(self.number))
+        print("Lecteur " + str(self.number))
         index = randrange(len(messages))
 
         print(messages[index])
